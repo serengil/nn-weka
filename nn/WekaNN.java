@@ -38,8 +38,11 @@ public class WekaNN {
 			mlp.setOptions(Utils.splitOptions(backPropOptions));
 			mlp.buildClassifier(trainingset);
 			
+			System.out.println("final weights:");
+			System.out.println(mlp);
+			
 			//display actual and forecast values
-			System.out.println("actual\tprediction");
+			System.out.println("\nactual\tprediction");
 			for(int i=0;i<trainingset.numInstances();i++){
 				
 				double actual = trainingset.instance(i).classValue();
