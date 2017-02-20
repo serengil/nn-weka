@@ -1,0 +1,11 @@
+@relation xor
+
+@attribute input1 numeric
+@attribute input2 numeric
+@attribute target numeric
+
+@data
+0,0,0
+0,1,1
+1,0,1
+1,1,0
