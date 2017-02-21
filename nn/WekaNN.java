@@ -17,13 +17,13 @@ public class WekaNN {
 		
 		//network variables			
 		String backPropOptions = 
-				"-L "+0.1 		//learning rate
+		"-L "+0.1 		//learning rate
                 +" -M "+0 		//momentum
-                +" -N "+10000 	//epoch
+                +" -N "+10000 		//epoch
                 +" -V "+0 		//validation
                 +" -S "+0 		//seed
                 +" -E "+0 		//error
-                +" -H "+"3"; 	//hidden nodes. e.g. use "3,3" for 2 level hidden layer with 3 nodes
+                +" -H "+"3"; 		//hidden nodes. e.g. use "3,3" for 2 level hidden layer with 3 nodes
 		
 		String fileType = "arff"; //available file types: arff, txt
 		
