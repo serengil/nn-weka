@@ -5,7 +5,6 @@ This project builds a neural network model with Weka machine learning tool.
 
 Project code is tested on JDK 1.7 and referencing Weka 3.6 version (http://www.cs.waikato.ac.nz/ml/weka/downloading.html ).
 
-=====
 Usage
 =====
 Run WekaNN.java under the package com.ml.weka.nn.
@@ -14,7 +13,6 @@ Trainset is stored under the folder dataset. You can work on xor.txt or xor.arff
 
 Alternatively, you can change or customize trainset to apply machine learning for different problems.
 
-=======
 License
 =======
 
