@@ -49,7 +49,7 @@ public class WekaSupervisedLearning {
 			
 			for(int j=0;j<distributions.length;j++){
 				
-				System.out.println("class_"+j+": "+distributions[j]);
+				System.out.println("class_"+j+": "+distributions[j]+" ~ "+Math.round(distributions[j]));
 				
 				if(distributions[j] > maxValue){
 					
