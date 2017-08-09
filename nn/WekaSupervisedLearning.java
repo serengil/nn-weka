@@ -70,6 +70,9 @@ public class WekaSupervisedLearning {
 				
 				System.out.println("classified as: "+classifiedText+" ("+100*distributions[(int) maxIndex]+"%)");
 				
+				System.out.println("all classes: "+predictionset.instance(i).attribute(predictionset.instance(i).numAttributes()-1));
+
+				
 			}
 					
 			System.out.println("--------------------------");
